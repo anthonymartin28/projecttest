@@ -19,10 +19,12 @@ var canvas=document.getElementById('mon_canvas');
 var context=canvas.getContext('2d');
 	
 
-function choixprop(form3) {
-if (form3.choix[0].checked) { alert("Vous avez choisi la proposition " + form3.choix[0].value) };
-if (form3.choix[1].checked) { alert("Vous avez choisi la proposition " + form3.choix[1].value) };
-if (form3.choix[2].checked) { alert("Vous avez choisi la proposition " + form3.choix[2].value) };
+
+function verifprop(form2) {
+if (form2.choix[0].checked) { alert("Vous avez sélectionnez la propsition " + form2.choix[0].value) };
+if (form2.choix[1].checked) { alert("Vous avez sélectionnez la propsition " + form2.choix[1].value) };
+if (form2.choix[2].checked) { alert("Vous avez sélectionnez la propsition " + form2.choix[2].value) };
+if (form2.choix[3].checked) { alert("Vous avez sélectionnez la propsition " + form2.choix[3].value) };
 }
 
 
