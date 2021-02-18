@@ -5,6 +5,7 @@
 	 <meta charset="utf-8">
 	 <link rel="stylesheet" href="qcm.css">
 	 <script type="text/javascript" src="qcm.js"></script>
+	 <meta name="viewport" content="initial-scale=1, width=device-width" />
 	</head>
 		
 			<body>
@@ -20,23 +21,23 @@
 				<input type="button" onclick="modif(-1);" value="-">
 				
 			</p>
-
-
-
-				
-				<ul id="menu-demo2">
-	<li><a href="#">accueil</a>
+<nav>			
+	<ul id="menu-demo2">
+	<li><a href="index.html">accueil</a>
 		
 	</li>
-	<li><a href="#">Lien menu 2</a>
+	<li><a href="#">choix quizz</a>
 		<ul>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
+		
+
+			<li><a href="qcm.html">juste pour appeler le qcm au début</a></li>		<!-- L'élément "href" ramène sur la page indiquée. -->
+			<li><a href="animaux.html">animaux</a></li>
+			<li><a href="culture_generale.html">culture générale</a></li>
+			<li><a href="histoire.html">histoire</a></li>
+			<li><a href="informatique.html">informatique</a></li>
 		</ul>
 	</li>
-	<li><a href="#">Lien menu 3</a>
+	<li><a href="#">création quiz </a>
 		<ul>
 			<li><a href="#">lien sous menu 3</a></li>
 			<li><a href="#">lien sous menu 3</a></li>
@@ -44,52 +45,46 @@
 			<li><a href="#">lien sous menu 3</a></li>
 		</ul>
 	</li>
-	<li><a href="#">Lien menu 4</a>
-		<ul>
-			<li><a href="#">Lien sous menu 4</a></li>
-			<li><a href="#">Lien sous menu 4</a></li>
-			<li><a href="#">Lien sous menu 4</a></li>
-			<li><a href="#">Lien sous menu 4</a></li>
-		</ul>
-	</li>
+
 </ul>
+</nav>
+  
+
 <br/>
 				
 				<button class="commencer"
 				type="button">
 				commencer
 				</button>
-			</body>
-				
-				Entrez votre choix :
-			<FORM NAME="form3">
-			<INPUT TYPE="radio" NAME="choix" VALUE="1">Choix numéro 1<BR>
-			<INPUT TYPE="radio" NAME="choix" VALUE="2">Choix numéro 2<BR>
-			<INPUT TYPE="radio" NAME="choix" VALUE="3">Choix numéro 3<BR>
-			<INPUT TYPE="button"NAME="but" VALUE="Quel et votre choix ?" onClick="choixprop(form3)">
-			</FORM>
+								Entrez votre choix :
+		
 <fieldset>
-      <legend>QUESTION 1</legend>
+	<FORM NAME="form2">
+      <legend>QUESTION 1:</legend>
       <ul>
             <label for="title_1">
           <li>
-              <input TYPE="radio" NAME="choix" VALUE="1">Choix numéro 1<BR> 
+              <input type="radio" name="choix" value="1">Choix numéro 1<BR> 
          
             </label>
           </li>
           <li>
             <label for="title_2">
-              <input type="radio" id="title_2" name="title" value="Mme.">
-              Choix numéro 2
-			  </br></br> </br> </br>  </br> </br></br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
-			  <input type="button" onclick="modif(1);" value="valider et continuer" style="background-color:#00FFFF;">
-				
+            <input type="radio" name="choix" value="2">Choix numéro 2<BR> 
+			  </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
+			 
+			<input TYPE="button" name="but" value="regarder votre réponse" onclick="verifprop(form2)">	
+			<input type="button" onclick="modif(1);" value="valider et continuer" >
+	</FORM>
 				
 			
 				
             </label>
-          </li>
+         </li>
       </ul>
-    </fieldset>
+</fieldset>
+			</body>
+				
+
 	
 </html>
