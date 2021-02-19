@@ -1,4 +1,315 @@
 {
-"theme": "animaux",
-"nbquestion": 10
+	"questions":
+	{
+		"question1":
+		{
+			"title":"Quel est le cri du chat ",
+			"choices":[
+				"miaou",
+				"ouaf",
+				"meuux",
+				"aouuu"
+			],
+			"correctAnswer":0,
+			"theme":"animal"
+		},
+		"question2":
+		{
+			"title":"Qui s'occupe des abeilles ",
+			"choices":[
+				"mieleur",
+				"abeilleur",
+				"apiculteur",
+				"abeilculteur"
+			],
+			"correctAnswer":2,
+			"theme":"animal"
+		},
+		"question3":
+		{
+			"title":"A quelle famille apartient le dragon de komodo ",
+			"choices":[
+				"dragon",
+				"serpent",
+				"reptile",
+				"crustacé"
+			],
+			"correctAnswer":2,
+			"theme":"animal"
+		},
+		"question4":
+		{
+			"title":"Combien pèse une baleine ",
+			"choices":[
+				"20 kg",
+				"30 tonnes",
+				"200 000 grammes",
+				"1 000 000 000 000 000 microkilo"
+			],
+			"correctAnswer":1,
+			"theme":"animal"
+		},
+		"question5":
+		{
+			"title":"Combien de pattes possèdent les insectes ",
+			"choices":[
+				0,
+				1000,
+				6,
+				4
+			],
+			"correctAnswer":2,
+			"theme":"animal"
+		},
+		"question6":
+		{
+			"title":"Quel oiseau africain ne vole pas, mais court très vite ",
+			"choices":[
+				"Le vautour",
+				"Le calao",
+				"L'autruche",
+				"Le bip-bip"
+			],
+			"correctAnswer":2,
+			"theme":"animal"
+		},
+		"question7":
+		{
+			"title":"Combien une étoile de mer a-t-elle de bras ",
+			"choices":[
+				0,
+				4,
+				3,
+				5
+			],
+			"correctAnswer":3,
+			"theme":"animal"
+		},
+		"question8":
+		{
+			"title":"Quel animal est immortel (de vieillesse)",
+			"choices":[
+				"Le Tardigrade",
+				"L'éponge",
+				"La praire d'islande",
+				"La turritopsis"
+			],
+			"correctAnswer":3,
+			"theme":"animal"
+		},
+
+
+
+
+
+
+
+
+		"question9":
+		{
+			"title":"elvis presley c'était qui/quoi ",
+			"choices":[
+				"un presse citron",
+				"un chanteur",
+				"une marque de pneu",
+				"une actrice"
+			],
+			"correctAnswer":1,
+			"theme":"cg"
+		},
+		"question10":
+		{
+			"title":"quel président a instauré la 5e république ",
+			"choices":[
+				"charle la gaule",
+				"charlie hebdo",
+				"francois hollande",
+				"charle de gaule"
+			],
+			"correctAnswer":3,
+			"theme":"cg"
+		},
+		"question11":
+		{
+			"title":"qui a inventé le feu ",
+			"choices":[
+				"l'Homme",
+				"mr Briquet",
+				"le feu lui même",
+				"dieu"
+			],
+			"correctAnswer":0,
+			"theme":"cg"
+		},
+		"question12":
+		{
+			"title":"quel est la vitesse le la lumiere en m/s ",
+			"choices":[
+				"l'infini",
+				"299 792 460",
+				"299 792 458",
+				"très très rapide"
+			],
+			"correctAnswer":2,
+			"theme":"cg"
+		},
+		"question13":
+		{
+			"title":"Combien de symphonie Mozart a-t-il réalisées ",
+			"choices":[
+				"50",
+				"41",
+				"69",
+				"aucune c'était pas beau"
+			],
+			"correctAnswer":1,
+			"theme":"cg"
+		},
+		"question14":
+		{
+			"title":"Comment s'appelle le chateau du capitaine Haddock ",
+			"choices":[
+				"chateau Moulinard",
+				"chateau Meulisard",
+				"chateau Moulinsart",
+				"chateau mousline"
+			],
+			"correctAnswer":2,
+			"theme":"cg"
+		},
+		"question15":
+		{
+			"title":"En quel année la statue de la liberté a-t-elle été construite ",
+			"choices":[
+				1882,
+				1886,
+				1902,
+				1875
+			],
+			"correctAnswer":3,
+			"theme":"cg"
+		},
+		"question16":
+		{
+			"title":"Qu'est ce que le pétrichor ",
+			"choices":[
+				"une façon de pétrir la pate a pain",
+				"l'odeur de la terre mouillé",
+				"un type de terreau",
+				"de l'eau sale"
+			],
+			"correctAnswer":3,
+			"theme":"cg"
+		},
+
+
+
+
+
+
+
+
+
+		"question17":
+		{
+			"title":"Quel est l'année de la révolution francaise ",
+			"choices":[
+				"1769",
+				"1789",
+				"1759",
+				"1000"
+			],
+			"correctAnswer":1,
+			"theme":"hist"
+		},
+		"question18":
+		{
+			"title":"Quand est née césar ",
+			"choices":[
+				"-80",
+				"-110",
+				"-100",
+				"-90"
+			],
+			"correctAnswer":2,
+			"theme":"hist"
+		},
+		"question19":
+		{
+			"title":"De quelle commune Mussolini est originaire ",
+			"choices":[
+				"Bologne",
+				"Predappio",
+				"Rimini",
+				"Ferrare"
+			],
+			"correctAnswer":0,
+			"theme":"hist"
+		},
+		"question20":
+		{
+			"title":"En 1214 a Bouvines , Philippe Auguste vaic les impériaux, les Anglais et ...",
+			"choices":[
+				"les normands",
+				"les flamands",
+				"les bourguignons",
+				"les lorrains"
+			],
+			"correctAnswer":1,
+			"theme":"hist"
+		},
+		"question21":
+		{
+			"title":"Qui est le fondateur de la dynastie dictatoriale Nord-coréenne ",
+			"choices":[
+				"Kim-jong-il",
+				"Kim-jong-un",
+				"Kim-jong-deux",
+				"Kim il-sung"
+			],
+			"correctAnswer":3,
+			"theme":"hist"
+		},
+		"question22":
+		{
+			"title":"La domestication du chat date de ... ",
+			"choices":[
+				"-1000",
+				"-9500",
+				"l'empire romain",
+				"l'invention de l'agriculture"
+			],
+			"correctAnswer":1,
+			"theme":"hist"
+		},
+		"question23":
+		{
+			"title":"combien d'année a durée la guerre de 100 ans ",
+			"choices":[
+				99,
+				100,
+				116,
+				112
+			],
+			"correctAnswer":2,
+			"theme":"hist"
+		},
+		"question24":
+		{
+			"title":"Abraham Lincoln est assassiné à la sortie .. ",
+			"choices":[
+				"du congrès",
+				"de sa piscine",
+				"du théâtre",
+				"d'un restaurant"
+			],
+			"correctAnswer":2,
+			"theme":"hist"
+		}
+	}
 }
+
+
+
+
+
